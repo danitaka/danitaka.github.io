@@ -1,0 +1,130 @@
+body{
+  margin: 0px;
+}
+
+#sky {
+position:absolute;
+z-index:-20;
+max-width: 1500px;
+max-height: 1000px;
+overflow: hidden;
+left:0px;
+top:20px;
+
+}
+
+#water {
+position:absolute;
+z-index:3;
+right:0px;
+top:25px;
+
+}
+#mountain {
+position:absolute;
+z-index:4;
+left:800px;
+top:-100px;
+max-width: 1500px;
+}
+
+#clouds {
+position:absolute;
+z-index:10;
+left:70px;
+top:0px;
+max-width: 1500px;
+}
+
+#graphicdesign {
+position:absolute;
+z-index:5;
+left:70px;
+top:950px;
+max-width: 1500px;}
+
+#fineart {
+position:absolute;
+z-index:6;
+left:70px;
+top:1250px;
+max-width: 1000px;
+}
+
+#animation {
+position:absolute;
+z-index:7;
+left:83px;
+top:800px;
+max-width: 1500px;
+}
+
+#about {
+position:absolute;
+z-index:8;
+left:70px;
+top:1400px;
+max-width: 1500px;
+}
+
+
+
+#film {
+position:absolute;
+z-index:9;
+left:70px;
+top:1100px;
+max-width: 1500px;
+}
+
+#header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index:10;
+}
+
+.parallax {
+  margin: 0px;
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax__layer--fore {
+transform: translateZ(-3px)scale(4);
+}
+
+.parallax__layer--base {
+  transform: translateZ(0);
+  top-max: 1200px;
+}
+
+.parallax__layer--back {
+  transform: translateZ(-10px) scale(11.5);
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+.parallax__layer--icons {
+transform: translateZ(-0.5px)scale(1.5);
+z-index: 10}
+
+#group1 {
+  z-index: 1
+}
+
+#group2 {
+  z-index: 2
+}

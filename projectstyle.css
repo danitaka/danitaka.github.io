@@ -1,0 +1,9 @@
+everything{
+  z-index: 2
+}
+
+.bg {
+  z-index: -1
+  position:absolute;
+  top:0px;
+}

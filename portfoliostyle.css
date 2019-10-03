@@ -1,0 +1,10 @@
+body {
+  background-image: url("enterbg.jpg");
+  background-size: cover;
+}
+
+.video{
+  position: absolute;
+  top:160px;
+  left:300px;
+}
