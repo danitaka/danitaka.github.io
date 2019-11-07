@@ -1,0 +1,31 @@
+body {
+  background-image: url("gifs/starspixel.gif");
+  background-size: cover;
+  margin: 0;
+  max-width: 1700px
+}
+
+.module {
+  cursor: url('emorypx.png'), auto;
+}
+
+.emory {
+position:relative;
+top:100px
+}
+
+a:hover {
+  color: ##38945b;
+}
+
+
+.video {
+  position:relative;
+  top:400px
+}
+
+@font-face {
+	font-family: ‘8bit16’;
+
+	src: url(8bit16.ttf’) format(‘truetype’);
+}

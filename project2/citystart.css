@@ -1,0 +1,18 @@
+body {
+  background-image: url("gifs/city.gif");
+  background-size: cover;
+  margin: 0;
+  max-width: 1500px
+}
+
+.module {
+  cursor: url('emorypx.png'), auto;
+}
+
+.emory {
+position:relative;
+top:300px
+}
+
+a:hover {color: ##38945b;
+}
