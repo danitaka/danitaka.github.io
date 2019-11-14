@@ -1,0 +1,103 @@
+html{
+  cursor: url("characters/emory2.gif"), auto;
+
+}
+@font-face {
+  font-family: "8bit16";
+  src: url("pixelmix.ttf");
+}
+body {
+  background-image: url("gifs/meal.gif");
+  background-size: cover;
+  margin: 0;
+  max-width: 1500px;
+  font-family: "pixelmix"
+}
+
+
+
+.emory {
+position:relative;
+top:300px
+}
+
+a:hover {color: #38945b;
+  cursor: url("characters/emory2.gif"), auto;
+
+}
+
+#start {
+  background: rgb(255,255,255,0.9);
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  padding:5px;
+  /* width: 500px;
+  height:200px; */
+  z-index: 100;
+}
+
+#hotpot {
+  background: rgb(255,255,255,0.9);
+  position: absolute;
+  top: 25vh;
+  left: 45vw;
+  padding:5px;
+  /* width: 500px;
+  height:200px; */
+  z-index: 100;
+}
+
+#smile {
+  background: rgb(255,255,255,0.9);
+  position: absolute;
+  top: 40vh;
+  left: -5vw;
+  padding:5px;
+  /* width: 500px;
+  height:200px; */
+  z-index: 100;
+}
+
+
+#start p, h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+    typing 2s steps(30, end),
+    blink-caret .5s;
+}
+#hotpot p, h2{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+    typing 2s steps(30, end),
+    blink-caret .5s;
+    animation-delay: 2.5s;
+    animation-fill-mode: both
+}
+#smile{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+    typing 1.5s steps(30, end),
+    blink-caret .5s;
+    animation-delay: 5s;
+    animation-fill-mode: both
+}
+
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange }
+
+}
